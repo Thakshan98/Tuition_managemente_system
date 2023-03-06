@@ -1,0 +1,401 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+hr {
+    border: 2px solid rgb(131, 51, 13);
+    border-radius: 5px;
+  }
+
+a{
+    text-decoration:none;
+    color: #4d1212;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: 600;
+    }
+.nav-link:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+  .card{
+    overflow:hidden;    
+    transition: transform .2s;
+  }
+  .card:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+.navbar{
+  
+    background-image: linear-gradient(to right, rgb(48, 2, 49) , rgb(168, 129, 177), rgb(48, 2, 49));
+  
+}
+
+
+h1,h2,h3{
+    font-family:roboto;
+    background: -webkit-linear-gradient(rgb(104, 174, 202), rgb(28, 4, 95));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h4,h5,h6{
+    font-family:roboto;
+    color: #4d1212;
+}
+
+.heading{
+    text-align:center;
+    margin-top:40px;
+}
+
+
+.btn1{
+    border-radius:5px;
+    padding:10px;
+    background:#663b95;
+    color:white;
+    margin-top:40px;    
+}
+
+.btn1:hover{
+    border-radius:5px;
+    padding:10px;
+    background:#8959bd;
+    color:white;
+    margin-top:40px;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+
+}
+
+
+.btnr{
+    border-radius:5px;
+    padding:5px;
+    background:#ff0000;
+    color:white;
+    text-decoration: none;
+}
+
+.btnr:hover{
+    border-radius:5px;
+    padding:5px;
+    background:#ff5e5e;
+    color:white;
+    
+}
+
+.btnb{
+    border-radius:5px;
+    padding:5px;
+    background:#43a7bc;
+    color:white;
+    text-decoration: none;
+
+}
+
+.btnb:hover{
+    border-radius:5px;
+    padding:5px;
+    background:#68b9ca;
+    color:white;
+
+}
+
+
+
+.cont{
+    height:auto;
+    width:50%;
+    margin:0 auto;
+    margin-top:20px;
+    padding:30px;
+    margin-bottom:40px;
+    text-align:center;
+    line-height:40px;
+     -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sha{
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.input{
+    height:30px;
+    width:80%;
+    padding:2px;
+    margin-top:10px;
+    
+}
+
+.input2{
+    width:80%;
+    height:40px;
+    margin-top:20px;
+    
+}
+
+
+label{
+    font-weight:bold;
+    
+}
+
+
+.success{
+    background:green;
+    color:white;
+    line-height:30px;
+    border-radius:5px;
+    height:30px;
+    
+    text-align:center;
+    margin-bottom:10px;
+    
+}
+
+.error{
+    background:#ff1515;
+    color:white;
+    line-height:30px;
+    border-radius:5px;
+    height:30px;
+    
+    text-align:center;
+    margin-bottom:10px;
+}
+
+
+.s{
+    list-style:none;
+    
+}
+
+
+
+
+.imgs{
+    height:400px;
+    width: 95%;;
+   
+    margin:20px;
+  
+    
+}
+
+.text{
+    text-align:center;      
+    
+}
+
+
+
+.footer{
+    background-image: linear-gradient(to right, rgb(48, 2, 49) , rgb(168, 129, 177), rgb(48, 2, 49));
+    height:60px;
+   width: 100%;
+   text-align:center;
+   color:white;
+   line-height:50px;
+   padding: auto;
+   
+}
+
+
+#section{
+    margin-left: 200px;
+   
+  padding:1px 16px;
+  height: 1000px;
+    font-family:cambria;
+   
+ 
+    
+}
+
+.sidebar {
+  width: 200px;
+  
+  background-image: linear-gradient(to right, #96808a, rgb(94, 93, 94));
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  #section{margin-left: 0 !important;padding-left: 0 !important;}
+ .footer{margin-left: 0 !important;}
+ .content1{margin-left: 0 !important;}
+ .tsbox{
+    clear:both;
+}
+
+}
+
+
+
+
+.content1{
+    margin-top:30px;
+    height:auto;
+    width:70%;
+   margin-left: 150px;
+    
+}
+.para{
+    text-align:justify;
+    padding:15px;
+    line-height:34px;
+    
+}
+
+.tbox{
+    float:left;
+}
+
+.tbox table{
+    border-collapse:collapse;
+    
+}
+
+tr,td,th{
+    padding:20px;
+}
+
+.table{
+    border-collapse:collapse;
+}
+
+.input3{
+    height:30px;
+    width:90%;
+    padding:2px;
+    margin-top:10px;
+    
+}
+
+
+.lbox{
+    
+    
+    width:45%;
+margin-right:20px;
+    float:left;
+}
+
+.rbox{
+    
+
+    width:45%;
+
+    float:left;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+.lbox1{
+    
+    width:50%;
+margin-right:20px;
+    float:left;
+}
+
+.rbox1{
+    width:45%;
+    float:left;
+}
+
+.rbox1 table{
+    width:100%;
+}
+
+textarea{
+    resize:none;width:90%;margin-top:20px;
+
+}
+
+.Output table
+{
+    width:100%;
+}
+
+.ibox{
+    width:65%;
+    float:left; 
+}
+
+.tsbox{
+
+    width:35%;
+    float:left; 
+    
+}
+
+
+.list{
+    list-style:none;
+    text-align:right;
+    
+}
+.list li{
+    display:inline;
+    
+}
+
+.list li a{
+    text-decoration:none;
+    color:white;
+    line-height:50px;
+    padding:20px;
+    
+}
+.log{
+    height:auto;
+    width:50%;
+    margin:0 auto;
+    margin-top:20px;
+    padding:30px;
+    margin-bottom:40px;
+    
+     -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
